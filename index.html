@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Images</title>
+  <link rel="shortcut icon" href="img/4k (3).png">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<style>
+  .HD{
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  }
+
+  body{
+    background-color: #fff;
+  }
+
+  .navbar-brand h1 {
+    margin-left: 70px;
+    font-size: 30px;
+    margin-top: -50px;
+  }
+
+  .card {
+    margin: 10px; /* Add a consistent margin to all cards */
+  }
+
+  /* Optional: Center the cards on smaller screens */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+</style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/4k.png" alt="" class="HD"> <h1 style="margin-left: 70px; font-size: 30px; margin-top: -50px;">Images</h1> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img/vestrahorn-mountains-sunset-stokksnes-iceland.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>VESTRAHORN MOUNTAINS</h5>
+        <p>Vestrahorn mountains at sunset in stokksnes, iceland.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img/fuji-mountain-kawaguchiko-lake-sunset-autumn-seasons-fuji-mountain-yamanachi-japan.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>FUJI MOUNTAINS</h5>
+        <p>Fuji mountain and kawaguchiko lake at sunset, autumn seasons fuji mountain at yamanachi in japan.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/green-trees-near-lake-cloudy-sky-daytime.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>TREES</h5>
+        <p>Green trees near lake under cloudy sky during daytime.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+
+<div class="container my-4">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="img/vestrahorn-mountains-stokksnes-iceland.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">4K Images</h5>
+          <p class="card-text">Vestrahorn mountains in stokksnes, iceland.</p>
+          <a href="#" class="btn btn-primary">Go Primium</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="img/nature-landscape-with-lake-mountain.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">4K Images</h5>
+          <p class="card-text">Nature landscape with lake and mountain.</p>
+          <a href="#" class="btn btn-primary">Go Primium</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="img/painting-mountain-lake-with-mountain-background.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">4K Images</h5>
+          <p class="card-text">A painting of a mountain lake with a mountain.</p>
+          <a href="#" class="btn btn-primary">Go Primium</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="img/pine-trees-rock-formation-near-mountains-gray-clouds.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">4K Images</h5>
+          <p class="card-text">Mountains under gray clouds.</p>
+          <a href="#" class="btn btn-primary">Go Primium</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="img/nature-3082832_1280.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">4K Images</h5>
+          <p class="card-text">Nature, Cool backgrounds, Wallpaper hd image.</p>
+          <a href="#" class="btn btn-primary">Go Primium</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="img/wallpaperflare.com_wallpaper.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">4K Images</h5>
+          <p class="card-text">Nature, Cool backgrounds, Wallpaper hd image.</p>
+          <a href="#" class="btn btn-primary">Go Primium</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="img/wallpaperflare.com_wallpaper (2).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">4K Images</h5>
+          <p class="card-text">snow-capped mountain, snow covered mountains.</p>
+          <a href="#" class="btn btn-primary">Go Primium</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <img src="img/wallpaperflare.com_wallpaper (3).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">4K Images</h5>
+          <p class="card-text">Green trees graphic, black and gray mountain.</p>
+          <a href="#" class="btn btn-primary">Go Primium</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+</body>
+</html>
